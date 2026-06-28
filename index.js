@@ -23,7 +23,7 @@ app.command("/reginald-catfact", async ({ ack, respond }) => {
 
   try {
     const response = await axios.get("https://catfact.ninja/fact");
-    await respond({ text: `Cat Fact:\n${response.data.fact}` });
+    await respond({ text: `Cat Factoid:\n${response.data.fact}` });
   } catch (err) {
     await respond({ text: "Failed to fetch a cat fact." });
   }
@@ -32,7 +32,7 @@ app.command("/reggie-ping", async ({ command, ack, respond }) => {
   const start = Date.now();
   await ack();
   const latency = Date.now() - start;
-  await respond({ text: `Yoo wsgg!\nLatency: ${latency}ms` });
+  await respond({ text: `Yoo wsgg gngg!\nLatency: ${latency}ms` });
 });
 
 (async () => {
