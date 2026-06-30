@@ -8,3 +8,11 @@ It'll give basic facts about cats or just say hi
 
 https://app.slack.com/client/E09V59WQY1E/C0P5NE354?skip_today=1
 You can try it by clicking the link above and typing /reginald-help to get the command list
+features:
+It'll simply say hey whats up
+It'll give cat facts
+
+To run: I installed the latest node at the time of writing this which is node 26 I believe
+This is incredibly basic. I'm pretty new so I just used word for word the instructions the guide on stardust gave me
+The bot and app tokens were taken from slack and its made permanent by the container I got from nest.hackclub.com
+they were stored in an environment variable. The ones on this repo are fake
